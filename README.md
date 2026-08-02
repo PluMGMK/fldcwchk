@@ -18,7 +18,7 @@ I'm trying to figure out if there are any CPUs on which the firmware developers'
 
 ## How can you help?
 
-Try out the `fldcwchk.exe` program on as many machines as you can. As I said, you can run it on any version of Windows from 95 to 11, or on Linux via Wine. Please don't use it on Virtual Machines though - these may use emulated CPUs, which may differ in this implementation detail from the real hardware equivalents! The program outputs a file `fldcwchk.txt` - you can post the contents of this file in the [discussion thread](https://github.com/PluMGMK/fldcwchk/discussions/1), and I will add them to `results.csv`.
+Try out the [`fldcwchk.exe` program](https://github.com/PluMGMK/fldcwchk/raw/refs/heads/master/fldcwchk.exe) on as many machines as you can. As I said, you can run it on any version of Windows from 95 to 11, or on Linux via Wine. Please don't use it on Virtual Machines though - these may use emulated CPUs, which may differ in this implementation detail from the real hardware equivalents! The program outputs a file `fldcwchk.txt` - you can post the contents of this file in the [discussion thread](https://github.com/PluMGMK/fldcwchk/discussions/1), and I will add them to `results.csv`.
 
 ## Acknowledgement
 
