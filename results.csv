@@ -3,3 +3,7 @@ AuthenticAMD,14,2, 0,AMD E-300 APU with Radeon(tm) HD Graphics,1
 AuthenticAMD,19,50, 0,AMD Ryzen 7 5825U with Radeon Graphics         ,1
 GenuineIntel,6,3C, 3,Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz,1
 GenuineIntel,6,5E, 3,Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz,1
+GenuineIntel,6,8, 3,,1
+GenuineIntel,6,3A, 9,       Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz,1
+AuthenticAMD,19,50, 0,AMD Ryzen 9 5900HS with Radeon Graphics        ,1
+AuthenticAMD,1A,44, 0,AMD Ryzen 9 9950X3D 16-Core Processor          ,1
