@@ -7,3 +7,9 @@ GenuineIntel,6,8, 3,,1
 GenuineIntel,6,3A, 9,       Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz,1
 AuthenticAMD,19,50, 0,AMD Ryzen 9 5900HS with Radeon Graphics        ,1
 AuthenticAMD,1A,44, 0,AMD Ryzen 9 9950X3D 16-Core Processor          ,1
+AMD,6,8, 1,AMD Athlon(tm) XP 2000+,1
+AuthenticAMD,10,A, 0,AMD Phenom(tm) II X4 960T Processor,1
+GenuineIntel,6,3A, 9,  Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz,1
+GenuineIntel,6,3C, 3,Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz,1
+GenuineIntel,6,4C, 3,  Intel(R) Atom(TM) x5-Z8300  CPU @ 1.44GHz,1
+GenuineIntel,6,1C, A,  Intel(R) Atom(TM) CPU N455   @ 1.66GHz,1
