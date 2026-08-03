@@ -163,18 +163,22 @@ code_section
         ; save the initial control word
         fstcw   [ctlwd]
         ; UNmask all FPU exceptions!
-        and     byte [ctlwd], 80h
+        mov     ax, [ctlwd]
+        and     al, 80h
+        xchg    ax, [ctlwd]
         fldcw   [ctlwd]
+        ; Put the original value back so it's ready to load...
+        mov     [ctlwd], ax
 
         ; Deliberate division by zero to raise an FPU exception
         fld     [one]
         fdiv    [zero]
 
         ; Now attempt to re-mask all exceptions
-        or      byte [ctlwd], 7Fh
         fldcw_inst:
         fldcw   [ctlwd] ; <-- exception will hit HERE if `fldcw` is waiting!
         after_fldcw:
+        smsw    ax
 
         ; if exception handler fired, go reset the FPU immediately
         cmp     [status],0
@@ -182,7 +186,6 @@ code_section
 
         ; if not, it's possible that an IRQ13 came in instead and caused
         ; Win9x to set the TS flag - check for that...
-        smsw    ax
         bt      ax,3    ; CR0.TS
         setc    [status]
 
