@@ -13,3 +13,6 @@ GenuineIntel,6,3A, 9,  Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz,1
 GenuineIntel,6,3C, 3,Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz,1
 GenuineIntel,6,4C, 3,  Intel(R) Atom(TM) x5-Z8300  CPU @ 1.44GHz,1
 GenuineIntel,6,1C, A,  Intel(R) Atom(TM) CPU N455   @ 1.66GHz,1
+GenuineIntel,6,9E, C,Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz,1
+AuthenticAMD,17,60, 1,AMD Ryzen 7 4700U with Radeon Graphics         ,1
+GenuineIntel,6,BA, 2,13th Gen Intel(R) Core(TM) i7-13620H,1
